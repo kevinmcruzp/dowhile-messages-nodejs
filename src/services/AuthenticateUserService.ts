@@ -41,6 +41,7 @@ class AuthenticateUserService {
       }
     );
 
+
     const response = await axios.get<IUserResponse>(
       "https://api.github.com/user",
       {
